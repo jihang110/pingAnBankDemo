@@ -1,0 +1,167 @@
+a{
+	text-decoration:none;
+}
+body{
+	background-color:#E5E5E5;
+	font-family: Microsoft Yahei;
+}
+.header-color{
+	background-color: #ea5504;
+}
+.header{
+	position: fixed;
+	top:0px;
+	height: 80px;
+	width: 100%;
+}
+.user{
+	float: right;
+	margin-top:28px;
+	margin-right:8.5%;
+	color: white;
+}
+.user i{
+	zoom: 1.4;
+}
+.user a{
+	color: white;
+}
+.logo-img{
+	margin-left: 8.5%;
+	margin-top:17px;
+}
+.content-main{
+	margin-top: 120px;
+}
+.font-black a{
+	color: black;
+}
+.height45{
+	height: 45px;
+}
+.height332{
+	height: 320px;
+}
+.height79{
+	height: 79px;
+	line-height: 79px;
+}
+.margin-bottom-0{
+	margin-bottom: 0px;
+}
+.border-bottom div:hover{
+	border-bottom: 1px solid #e95603;
+}
+.remove-border-bottom{
+	border-bottom-color: transparent;
+}
+.li-margin-top-5 li{
+	margin-top:5px;
+}
+.backg-white{
+	background-color: #FFFFFF;
+}
+.backg-orange{
+	background-color: #EA5504;
+}
+.color-white{
+	color: #FFFFFF;
+}
+.color-orange{
+	color: #EA5504 !important;
+}
+.notice-padding{
+	padding: 7px 25px;
+}
+.header-main{
+	margin-top: 15px;
+	background-color: #FFFFFF;
+	height: 32px;
+}
+.margin-top-10{
+	margin-top: 10px;
+}
+#refresh{
+	background:url(../img/refresh.png);
+	width:22px;
+	height: 22px;
+	border:0px;
+}
+#more{
+	border:0px;
+	color: #FFFFFF;
+	width: 90px;
+	height: 30px;
+	border-radius:5px;
+}
+.padding-left-15{
+	padding-left: 15px;
+}
+.margin-left-15{
+	margin-left: 15px;
+}
+.margin-right-15{
+	margin-right: 15px;
+}
+.bottomline{
+	border-bottom: 1px #c3c3c3 solid;
+}
+.block{
+	display: inline-block;
+	border-radius:5px;
+}
+.padding-10-20{
+	padding: 10px 20px;
+}
+#baoliyun{
+	width:166px; 
+	height:56px;
+	display:block; 
+	background:url(../img/baoliyun1.png) no-repeat;
+}
+#baoliyun:active{
+	background:url(../img/baoliyun.png) no-repeat;
+}
+
+#zulin{
+	width:167px; 
+	height:56px;
+	display:block; 
+	background:url(../img/zulin.png) no-repeat;
+}
+#zulin:active{
+	background:url(../img/zulin1.png) no-repeat;
+}
+#ziguan{
+	width:167px; 
+	height:56px;
+	display:block; 
+	background:url(../img/ziguan.png) no-repeat;
+}
+#ziguan:active{
+	background:url(../img/ziguan1.png) no-repeat;
+}
+#yupiao{
+	width:167px; 
+	height:56px;
+	display:block; 
+	background:url(../img/ziguan.png) no-repeat;
+}
+.border-orange{
+	border: 1px solid #EA5504 !important;	
+}
+.border-blue{
+	border: 1px solid #438dc9;	
+}
+.border-green{
+	border: 1px solid #83d142;	
+}
+.border-blue-green{
+	border: 1px solid #18cfd6;	
+}
+.border-blue-red{
+	border: 1px solid #e85b09;	
+}
+.border-blue-grey{
+	border: 1px solid #959595;	
+}
