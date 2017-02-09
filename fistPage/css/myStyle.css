@@ -7,6 +7,9 @@ body{
 	width：100%；
 	overflow:scroll;
 }
+.container{
+	width: 1080px;
+}
 .header-color{
 	background-color: #ea5504;
 }
