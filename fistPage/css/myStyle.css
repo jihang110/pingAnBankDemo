@@ -112,6 +112,9 @@ body{
 	display: inline-block;
 	border-radius:5px;
 }
+.padding-10-0{
+	padding: 10px 0px;
+}
 .padding-10-20{
 	padding: 10px 20px;
 }
@@ -121,7 +124,12 @@ body{
 .padding-14-26{
 	padding: 14px 0px 14px 26px;
 }
-
+.padding-0-10{
+	padding: 0px 10px;
+}
+.lineheight73{
+	line-height:73px;
+}
 #baoliyun{
 	width:166px; 
 	height:56px;
