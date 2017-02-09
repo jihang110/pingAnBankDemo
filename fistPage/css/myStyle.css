@@ -141,11 +141,23 @@ body{
 #ziguan:active{
 	background:url(../img/ziguan1.png) no-repeat;
 }
-#yupiao{
+#yunpiao{
 	width:167px; 
 	height:56px;
 	display:block; 
-	background:url(../img/ziguan.png) no-repeat;
+	background:url(../img/yunpiao.png) no-repeat;
+}
+#yunpiao:active{
+	background:url(../img/yunpiao1.png) no-repeat;
+}
+#jiaoyi{
+	width:167px; 
+	height:56px;
+	display:block; 
+	background:url(../img/jiaoyi.png) no-repeat;
+}
+#jiaoyi:active{
+	background:url(../img/jiaoyi1.png) no-repeat;
 }
 .border-orange{
 	border: 1px solid #EA5504 !important;	
