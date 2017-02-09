@@ -6,7 +6,6 @@
 		<title></title>
 		<link rel="stylesheet" href="../css/bootstrap.css" />
 		<link rel="stylesheet" href="../css/bootstrap-theme.css" />
-		<link rel="stylesheet" href="../css/bootstrap-responsive.min.css" />
 		<link rel="stylesheet" href="../css/myStyle.css" />
 		<script type="text/javascript" src="../js/jquery.min.js"></script>
 		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
@@ -30,29 +29,29 @@
 				<span>说说经办员 &nbsp;&nbsp;|&nbsp;&nbsp;</span>
 				<a>退出</a>
 			</div>
-			<div class="header-main">
+			<div class="header-main text-center">
 				<ul class="nav nav-tabs font-black margin-bottom-0 remove-border-bottom li-margin-top-5 pull-right">
-					<div class="span1 div-height-45">
+					<div class="span1 div-height-45 div-hover">
 						<li>
 							<a href="#">首页</a>
 						</li>
 					</div>
-					<div class="span1 div-height-45">
+					<div class="span1 div-height-45 div-hover">
 						<li>
 							<a href="#">云票管理</a>
 						</li>
 					</div>
-					<div class="span1 div-height-45" style="width: 80px;">
+					<div class="span1 div-height-45 div-hover" style="width: 80px;">
 						<li>
 							<a href="#">供应商维护</a>
 						</li>
 					</div>
-					<div class="span1 div-height-45">
+					<div class="span1 div-height-45 div-hover">
 						<li>
 							<a href="#">我的工作</a>
 						</li>
 					</div>
-					<div class="span2 div-height-45">
+					<div class="span2 div-height-45 div-hover">
 						<li class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#">查询管理<b class="caret"></b></a>
 							<ul class="dropdown-menu">
@@ -128,10 +127,14 @@
 							</div>
 						</div>
 					</div>
-					<div class="span12 margin-top-10" style="height: 332px;">
+					<div class="span12 margin-top-15" style="height: 332px;">
 						<div class="row-fluid">
-							<div class="span9" style="position:relative;">
+							<div class="span9 div-hover-3" style="position:relative;">
 								<img src="../img/background-black.png" style="width: 855px;height: 332px;" />
+								<div class="bor-bottom-white" style="position: absolute; top: 0px; left: 0px;width:547px;height: 39px;z-index: 9996;">
+									<img src="../img/company.png" style="padding: 0px 7px 9px 20px;"/>
+									<span class="color-white" style="font-size: 16px;line-height: 39px;"><strong>核心企业信息</strong></span>
+								</div>
 								<div style="position: absolute; top: 90px; left: 20px;width: 50%;height: 60%;z-index: 9996;">
 									<div style="padding: 0px 0px 15px 70px;">
 										<span class="color-white background-title"><strong>某某核心企业有限公司</strong></span>
@@ -147,17 +150,17 @@
 								</div>
 								<div style="position: absolute; top: 50px; left: 70%;width: 30%;">
 									<label class="color-white">联系人</label>
-									<input type="text" style="width: 80%;" class="border-orange color-orange">
+									<input type="text" style="width: 85%;" class="border-orange color-orange backg-black">
 									<label class="color-white">联系电话</label>
-									<input type="text" style="width: 80%;" class="border-orange color-orange">
+									<input type="text" style="width: 85%;" class="border-orange color-orange backg-black">
 									<label class="color-white">联系地址</label>
-									<input type="text" style="width: 80%;" class="border-orange color-orange">
+									<input type="text" style="width: 85%;" class="border-orange color-orange backg-black">
 								</div>
 
 							</div>
-							<div class="span3 backg-white" style="height:332px;">
-								<div class="margin-left-15 margin-right-15 padding-10-0">
-									<span><img src="../img/agencyTask.png"><strong>代办任务</strong><input id="refresh" class="pull-right"  type="button"></input></span>
+							<div class="span3 backg-white div-hover-grey-3" style="height:332px;">
+								<div class="padding-10-15 border-bottom-grey">
+									<span><img src="../img/agencyTask.png"><strong style="padding-left: 10px;line-height: 24px;">代办任务</strong><input id="refresh" class="pull-right"  type="button"></input></span>
 									<br>
 								</div>
 								<div class="margin-left-15 margin-right-15 height79 bottomline">
@@ -173,35 +176,35 @@
 							</div>
 						</div>
 					</div>
-					<div class="span12 margin-top-10 backg-white padding-10-20">
+					<div class="span12 margin-top-15 backg-white padding-10-20">
 						<div class="span2">
-							<a id="baoliyun" class="backg-white block"></a>
+							<a id="baoliyun" class="backg-white block baoliyun1"></a>
 						</div>
 						<div class="span2">
-							<a id="zulin" class="backg-white block"></a>
+							<a id="zulin" class="backg-white block zulin1"></a>
 						</div>
 						<div class="span2">
-							<a id="ziguan" class="backg-white block"></a>
+							<a id="ziguan" class="backg-white block ziguan1"></a>
 						</div>
 						<div class="span2">
-							<a id="yunpiao" class="backg-white block"></a>
+							<a id="yunpiao" class="backg-white block yunpiao1"></a>
 						</div>
 						<div class="span2">
-							<a id="jiaoyi" class="backg-white block"></a>
+							<a id="jiaoyi" class="backg-white block jiaoyi1"></a>
 						</div>
 					</div>
 					<div class="span12" style="position:relative;">
 						<img id="backgroundC" src="../img/barkgroound-org.png" class="backg-orange" style="width: 100%;" />
 						<div style="position: absolute; top: 30%; left: 0;width: 100%;">
-							<h4 class="text-center">保理云系统</h4></div>
+							<h4 class="text-center color-white">保理云系统</h4></div>
 						<div style="position: absolute; top: 45%; left: 0;width: 100%;">
-							<h5 class="text-center">平安银行保理云服务平台:是由平安银行为商业保理公司提供的保理业务操作及信息管理服务</h5>
+							<h5 class="text-center color-white">平安银行保理云服务平台:是由平安银行为商业保理公司提供的保理业务操作及信息管理服务</h5>
 						</div>
-						<input type="button" value="立即签约" class="backg-orange" style="color:#FFFFFF;border-radius:5px;padding:5px 20px;position: absolute; bottom: 10%; left: 47%;" />
+						<input id="signButton" type="button" value="立即签约" class="backg-orange border-white color-white" style="border-radius:5px;padding:5px 30px;position: absolute; bottom: 10%; left: 44.5%;" />
 					</div>
 				</div>
 			</div>
-			<div class="panel-footer">
+			<div class="panel-footer margin-top-15">
 				<div style="background-color: #292929;width: 100%;padding-right: 20px;">
 				<div class="container">
 					<span class="color-white" style="padding-left: 2.5%;">关注我们</span>
@@ -211,14 +214,14 @@
 					<div class="pull-right" style="line-height: 97px;">
 						<span class="color-white"> 友情链接 :&nbsp;&nbsp;</span>
 						<span style="color: #686868;">
-						<a href="#">征信中心</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-						<a href="#">中登网</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-						<a href="#">中国商务部</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+						<a href="http://www.pbccrc.org.cn/" target="view_window">征信中心</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+						<a href="http://www.zhongdengwang.org.cn/zhongdeng/index.shtml" target="view_window">中登网</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+						<a href="http://www.mofcom.gov.cn/" target="view_window">中国商务部</a>&nbsp;&nbsp;|&nbsp;&nbsp;
 					</span>
 					</div>
 				</div>
 				</div>
-				<div class="text-center" style="background-color: #E95603;width: 100%;padding: 10px;"><strong>copyright©2016 ALL Rights Reserved 平安银行|平安金融 版权所有</strong></div>
+				<div class="text-center right-sign">copyright©2016 ALL Rights Reserved 平安银行|平安金融 版权所有</div>
 			</div>
 	</body>
 
