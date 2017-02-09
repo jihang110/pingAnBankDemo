@@ -201,3 +201,10 @@ body{
 	text-decoration:none;
 	color:#686868;
 }
+.background-title{
+	font-size: 18px;
+	font-family: "Microsoft YaHei";	
+}
+.span-height{
+	line-height:30px;
+}
