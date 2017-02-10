@@ -10,6 +10,9 @@ body{
 .container{
 	width: 1080px;
 }
+.container-fluid{
+	min-width: 821px;
+}
 .header-color{
 	background-color: #ea5504;
 }
@@ -45,7 +48,7 @@ body{
 	height: 45px;
 }
 .height332{
-	height: 320px;
+	height: 332px;
 }
 .height79{
 	height: 79px;
@@ -132,7 +135,7 @@ body{
 .lineheight73{
 	line-height:73px;
 }
-.baoliyun1{
+/*.baoliyun1{
 	width:166px; 
 	height:56px;
 	display:block; 
@@ -207,7 +210,7 @@ body{
 }
 #jiaoyi:active{
 	background:url(../img/jiaoyi.png) no-repeat;
-}
+}*/
 .border-orange{
 	border: 1px solid #EA5504 !important;	
 }
