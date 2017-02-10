@@ -21,6 +21,7 @@ body{
 	top:0px;
 	height: 80px;
 	width: 100%;
+	min-width: 500px;
 }
 .user{
 	float: right;
@@ -83,6 +84,7 @@ body{
 	margin-top: 15px;
 	background-color: #FFFFFF;
 	height: 32px;
+	min-width: 400px;
 }
 .margin-top-10{
 	margin-top: 10px;
