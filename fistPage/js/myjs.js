@@ -50,3 +50,11 @@ function clearClass(a){
 	$("#yunpiao").children("img").attr("src","../img/yunpiao.png");
 	$("#jiaoyi").children("img").attr("src","../img/jiaoyi.png");
 }
+function minWin(){
+	$(window).resize(function(){
+		if(document.documentElement.clientWidth<700){
+		alert("禁止缩放");
+		window.resizeTo(700,300);
+		}
+	});
+}

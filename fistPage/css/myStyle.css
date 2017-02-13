@@ -110,6 +110,9 @@ body{
 .padding-left-15{
 	padding-left:15px;
 }
+.padding-right-10{
+	padding-right:10px;
+}
 .margin-left-15{
 	margin-left: 15px;
 }
@@ -244,7 +247,7 @@ body{
 	border-bottom: 1px solid #FFFFFF;
 }
 .div-hover:hover{
-	border-bottom: 1px solid #e95603;
+	border-bottom: 2px solid #e95603;
 }
 .div-hover-3:hover{
 	border-bottom: 3px solid #e95603;
@@ -270,4 +273,29 @@ body{
 }
 .h-normal{
 	font-weight:normal;
+}
+.div-height-32{
+	height: 32px;
+}
+.weight-auto{
+	width: inherit;
+}
+.dropdown-menu{
+	min-width: 80px;
+	margin-left: -19px;	
+}
+.dropdown-menu > li > a:hover{
+	background-color: #ea5504 !important;
+	background-image: -moz-linear-gradient(top, #ea5504, #ea5504);
+  	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ea5504), to(#ea5504));
+    background-image: -webkit-linear-gradient(top, #ea5504, #ea5504);
+    background-image: -o-linear-gradient(top, #ea5504, #ea5504);
+    background-image: linear-gradient(to bottom, #ea5504, #ea5504);
+    background-repeat: repeat-x;
+  	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ea5504', endColorstr='#ea5504', GradientType=0);
+}
+.dropdown-title{
+	padding-left: 15px;
+	padding-right: 10px;
+    margin-left: 0px;
 }

@@ -29,45 +29,58 @@
 				<span>说说经办员 &nbsp;&nbsp;|&nbsp;&nbsp;</span>
 				<a>退出</a>
 			</div>
-			<div class="header-main text-center">
+			<div class="header-main text-left">
 				<ul class="nav nav-tabs font-black margin-bottom-0 remove-border-bottom li-margin-top-5 pull-right">
-					<div class="span1 div-height-45 div-hover">
+					<div class="span1 div-height-32 div-hover text-center">
 						<li>
 							<a href="#">首页</a>
 						</li>
 					</div>
-					<div class="span1 div-height-45 div-hover">
-						<li>
-							<a href="#">云票管理</a>
+					<div class="span1 div-height-32 div-hover weight-auto dropdown-title">
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">用户管理<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">添加用户</a>
+								</li>
+							</ul>
 						</li>
 					</div>
-					<div class="span1 div-height-45 div-hover" style="width: 80px;">
-						<li>
-							<a href="#">供应商维护</a>
+					<div class="span2 div-height-32 div-hover weight-auto dropdown-title">
+						<li class="dropdown">
+							<a href="#">基本信息维护<b class="caret"></b></a>
 						</li>
 					</div>
-					<div class="span1 div-height-45 div-hover">
-						<li>
-							<a href="#">我的工作</a>
+					<div class="span1 div-height-32 div-hover weight-auto dropdown-title">
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">我的工作<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">代办任务</a>
+								</li>
+							</ul>
 						</li>
 					</div>
-					<div class="span2 div-height-45 div-hover">
+					<div class="span2 div-height-32 div-hover weight-auto dropdown-title">
 						<li class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#">查询管理<b class="caret"></b></a>
 							<ul class="dropdown-menu">
 								<li>
-									<a href="#">Action</a>
+									<a href="#">在途任务查询</a>
 								</li>
 								<li>
-									<a href="#">Another action</a>
+									<a href="#">我发起的任务</a>
 								</li>
 								<li>
-									<a href="#">Something else here</a>
+									<a href="#">我参与的任务</a>
 								</li>
-								<li class="divider"></li>
+								<li>
+									<a href="#">管理员操作日志</a>
+								</li>
+								<!--<li class="divider"></li>
 								<li>
 									<a href="#">Separated link</a>
-								</li>
+								</li>-->
 							</ul>
 						</li>
 					</div>
@@ -89,7 +102,7 @@
 								<table>
 									<tr>
 										<td rowspan="2"><img src="../img/bigUserLogo.png" /></td>
-										<td class="padding-0-10"><strong>欢迎进入平安**系统<strong></td>
+										<td class="padding-0-10"><strong>欢迎进入平安应收账款交易平台<strong></td>
 								</tr>
 								<tr>
 									<td class="padding-0-10">某某某经办员，您好</td>     
@@ -130,32 +143,6 @@
 					<div class="span12 margin-top-15" style="height: 332px;">
 						<div class="row-fluid">
 							<div class="span9 div-hover-3 backg-black" style="position:relative;">
-								<!--<img src="../img/background-black.png" style="width: 855px;height: 332px;" />
-								<div class="bor-bottom-white" style="position: absolute; top: 0px; left: 0px;width:68%;height: 39px;z-index: 9996;">
-									<img src="../img/company.png" style="padding: 0px 7px 9px 20px;"/>
-									<span class="color-white" style="font-size: 16px;line-height: 39px;"><strong>核心企业信息</strong></span>
-								</div>
-								<div style="position: absolute; top: 90px; left: 20px;width: 50%;height: 60%;z-index: 9996;">
-									<div style="padding: 0px 0px 15px 70px;">
-										<span class="color-white background-title"><strong>某某核心企业有限公司</strong></span>
-										<br>
-									</div>
-									<div class="span-height" style="padding-left: 60px;">
-										<span class="color-white">某某核心企业有限公司</span>
-										<br>
-										<span class="color-white">某某核心企业有限公司</span>
-										<br>
-										<span class="color-white">某某核心企业有限公司</span>
-									</div>
-								</div>
-								<div style="position: absolute; top: 50px; left: 70%;width: 30%;">
-									<label class="color-white">联系人</label>
-									<input type="text" style="width: 85%;" class="border-orange color-orange backg-black">
-									<label class="color-white">联系电话</label>
-									<input type="text" style="width: 85%;" class="border-orange color-orange backg-black">
-									<label class="color-white">联系地址</label>
-									<input type="text" style="width: 85%;" class="border-orange color-orange backg-black">
-								</div>-->
 								<div class="span8 height332" style="position: relative;">
 									<img src="../img/background-black.png" style="width: 100%;height: 100%;"/>
 									<div class="bor-bottom-white" style=" line-height: 39px;position: absolute; top: 0px; left: 0px;width:100%;height: 39px;z-index: 9996;">
@@ -168,11 +155,16 @@
 											<br>
 										</div>
 										<div class="span-height" style="padding-left: 110px;">
-											<span class="color-white">某某核心企业有限公司</span>
+											<span class="color-white">证件类型：统一社会信用证</span>
 											<br>
-											<span class="color-white">某某核心企业有限公司</span>
+											<span class="color-white">证件号码：123456-3</span>
 											<br>
-											<span class="color-white">某某核心企业有限公司</span>
+											<span class="color-white">国税登记证：132521453251353</span>
+											<br>
+											<span class="color-white">地税证件号：3412323323345</span>
+											<br>
+											<span class="color-white">注册币种：<span style=" font-family:Arial;">&yen;</span>1000,000,000.00</span>
+											<br>
 										</div>
 									</div>
 								</div>
