@@ -24,10 +24,10 @@ function clickImg(){
 		$(this).parent().parent().next().find("h4").html("内容暂缺");
 		$(this).parent().parent().next().find("h5").html("");
 	});
-	$("#yunpiao").click(function(){
-		$("#backgroundC").css("background-color","#5f52a0");
+	$("#jintiao").click(function(){
+		$("#backgroundC").css("background-color","#c0a00e");
 		clearClass(this);
-		$(this).children("img").attr("src",'../img/yunpiao1.png');
+		$(this).children("img").attr("src",'../img/jintiao1.png');
 		$(this).parent().parent().next().find("h4").html("内容暂缺");
 		$(this).parent().parent().next().find("h5").html("");
 	});
@@ -40,14 +40,15 @@ function clickImg(){
 	});
 }
 function clearClass(a){
-//	$(a).children("img").attr("src","../img/baoliyun.png");
-//	var id = $(a).attr("id");
-//	var path = "../img/"+id+".png";
-//	$("#"+id).children("img").attr("src",path);
+	/*$(a).children("img").attr("src","../img/baoliyun.png");
+	var id = $(a).attr("id");
+	var path = "../img/"+id+"1.png";
+	alert(path);
+	$("#"+id).children("img").attr("src",path);*/
 	$("#baoliyun").children("img").attr("src","../img/baoliyun.png");
 	$("#zulin").children("img").attr("src","../img/zulin.png");
 	$("#ziguan").children("img").attr("src","../img/ziguan.png");
-	$("#yunpiao").children("img").attr("src","../img/yunpiao.png");
+	$("#jintiao").children("img").attr("src","../img/jintiao.png");
 	$("#jiaoyi").children("img").attr("src","../img/jiaoyi.png");
 }
 function minWin(){
