@@ -4,32 +4,27 @@ $(function(){
 function clickImg(){
 	$("#baoliyun").click(function(){
 		//默认
-		$("#backgroundC").css("background-color","#EA5504");
-		$("#signButton").css("background-color","#EA5504");
+		$("#backgroundC").css("background-color","#ff883f");
 		clearClass(this);
 		$(this).children("img").attr("src",'../img/baoliyun1.png');
 	});
 	$("#zulin").click(function(){
-		$("#backgroundC").css("background-color","#438dc9");
-		$("#signButton").css("background-color","#438dc9");
+		$("#backgroundC").css("background-color","#0066ff");
 		clearClass(this);
 		$(this).children("img").attr("src",'../img/zulin1.png');
 	});
 	$("#ziguan").click(function(){
-		$("#backgroundC").css("background-color","#57d492");
-		$("#signButton").css("background-color","#57d492");
+		$("#backgroundC").css("background-color","#89d249");
 		clearClass(this);
 		$(this).children("img").attr("src",'../img/ziguan1.png');
 	});
 	$("#yunpiao").click(function(){
-		$("#backgroundC").css("background-color","#18cfd6");
-		$("#signButton").css("background-color","#18cfd6");
+		$("#backgroundC").css("background-color","#5f52a0");
 		clearClass(this);
 		$(this).children("img").attr("src",'../img/yunpiao1.png');
 	});
 	$("#jiaoyi").click(function(){
-		$("#backgroundC").css("background-color","#e85b09");
-		$("#signButton").css("background-color","#e85b09");
+		$("#backgroundC").css("background-color","#ea5504");
 		clearClass(this);
 		$(this).children("img").attr("src",'../img/jiaoyi1.png');
 	});

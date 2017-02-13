@@ -71,6 +71,9 @@ body{
 .backg-black{
 	background-color: #000000 !important;
 }
+.backg-trans{
+	background-color: transparent;
+}
 .color-white{
 	color: #FFFFFF;
 }
@@ -264,4 +267,7 @@ body{
 }
 .right-sign{
 	background-color: #E95603;width: 100%;padding: 10px;font-size: 12px;
+}
+.h-normal{
+	font-weight:normal;
 }
