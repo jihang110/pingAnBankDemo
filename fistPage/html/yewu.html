@@ -10,11 +10,6 @@
 		<link rel="stylesheet" href="../css/myStyle.css" />
 		<script type="text/javascript" src="../js/jquery.min.js"></script>
 		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="http://www.jeasyui.com/easyui/themes/default/easyui.css">
-    <link rel="stylesheet" type="text/css" href="http://www.jeasyui.com/easyui/themes/icon.css">
-    <link rel="stylesheet" type="text/css" href="http://www.jeasyui.com/easyui/demo/demo.css">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
-    <script type="text/javascript" src="http://www.jeasyui.com/easyui/jquery.easyui.min.js"></script>
 		<style>
 
 		</style>
@@ -28,72 +23,68 @@
         -->
 		<div class="header header-color" style="z-index: 9999;">
 			<img class="logo-img" src="../img/logo.png" />
-			<div class="user">
+			<div class="user width-ie-25">
 				<!--<i class="icon-user icon-white"></i>-->
-				<img src="../img/small-head-portrait.png" />
-				<span>说说经办员 &nbsp;&nbsp;|&nbsp;&nbsp;</span>
 				<a>退出</a>
+				<span>说说经办员 &nbsp;&nbsp;|&nbsp;&nbsp;</span>
+				<img src="../img/small-head-portrait.png" />
 			</div>
-			<div class="header-main">
-				<div class="navbar">
-					<div class="navbar-inner">
-						<div class="container-fluid">
-
-							<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-							<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</a>
-							<!-- Everything you want hidden at 940px or less, place within here -->
-							<div class="nav-collapse collapse">
-								<ul class="nav nav-tabs font-black margin-bottom-0 remove-border-bottom li-margin-top-5">
-									<div class="span1 div-height-45">
-										<li>
-											<a href="#">首页</a>
-										</li>
-									</div>
-									<div class="span1 div-height-45">
-										<li>
-											<a href="#">Help</a>
-										</li>
-									</div>
-									<div class="span1 div-height-45">
-										<li>
-											<a href="#">首页</a>
-										</li>
-									</div>
-									<div class="span1 div-height-45">
-										<li>
-											<a href="#">Help</a>
-										</li>
-									</div>
-									<div class="span2 div-height-45">
-										<li class="dropdown">
-											<a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown <b class="caret"></b></a>
-											<ul class="dropdown-menu">
-												<li>
-													<a href="#">Action</a>
-												</li>
-												<li>
-													<a href="#">Another action</a>
-												</li>
-												<li>
-													<a href="#">Something else here</a>
-												</li>
-												<li class="divider"></li>
-												<li>
-													<a href="#">Separated link</a>
-												</li>
-											</ul>
-										</li>
-									</div>
-								</ul>
-							</div>
-
-						</div>
+			<div class="header-main text-left">
+				<ul class="nav nav-tabs font-black margin-bottom-0 remove-border-bottom li-margin-top-5 pull-right">
+					<div class="span1 div-height-32 div-hover text-center">
+						<li>
+							<a href="#">首页</a>
+						</li>
 					</div>
-				</div>
+					<div class="span1 div-height-32 div-hover weight-auto dropdown-title">
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">用户管理<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">添加用户</a>
+								</li>
+							</ul>
+						</li>
+					</div>
+					<div class="span2 div-height-32 div-hover weight-auto dropdown-title">
+						<li class="dropdown">
+							<a href="#">基本信息维护<b class="caret"></b></a>
+						</li>
+					</div>
+					<div class="span1 div-height-32 div-hover weight-auto dropdown-title">
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">我的工作<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">代办任务</a>
+								</li>
+							</ul>
+						</li>
+					</div>
+					<div class="span2 div-height-32 div-hover weight-auto dropdown-title">
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">查询管理<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">在途任务查询</a>
+								</li>
+								<li>
+									<a href="#">我发起的任务</a>
+								</li>
+								<li>
+									<a href="#">我参与的任务</a>   
+								</li>
+								<li>
+									<a href="#">管理员操作日志</a>
+								</li>
+								<!--<li class="divider"></li>
+								<li>
+									<a href="#">Separated link</a>
+								</li>-->
+							</ul>
+						</li>
+					</div>
+				</ul>
 			</div>
 		</div>
 		<!--
@@ -121,9 +112,9 @@
                 	描述：进度条
                 -->
                 <div class="backg-white" style="padding-left: 84px;padding-right: 84px;">
-                	<div style="top: 121px;position: relative;left: 30%;"><img src="../img/d.png" /><span style=" color: #FFFFFF;right: 46px;position: relative;bottom: 2px;">申请</span></div>
-                	<div style="top: 93px;position: relative;left: 63%;"><img src="../img/d.png" /><span style=" color: #FFFFFF;right: 46px;position: relative;bottom: 2px;">复核</span></div>
-					<div style="top: 66px;position: relative;left: 96%;"><img src="../img/d.png" /><span style=" color: #FFFFFF;right: 46px;position: relative;bottom: 2px;">提交</span></div>
+                	<div style="top: 57px;position: relative;left: 30%;"><img src="../img/d.png" /><span style=" color: #FFFFFF;right: 46px;position: relative;bottom: 2px;">申请</span></div>
+                	<div style="top: 29px;position: relative;left: 63%;"><img src="../img/d.png" /><span style=" color: #FFFFFF;right: 46px;position: relative;bottom: 2px;">复核</span></div>
+					<div style="top: 2px;position: relative;left: 96%;"><img src="../img/d.png" /><span style=" color: #FFFFFF;right: 46px;position: relative;bottom: 2px;">提交</span></div>
 				<div class="progress margin-top-65">
 					<div class="bar bar-info " style="width: 33%"></div>
 					<div class="bar bar-warning" style="width: 33%"></div>
@@ -137,15 +128,15 @@
                 	描述：查询条件区域
                 -->
                 
-				<form class="" ><div class="backg-white span12 remove-span-margin" style="display: inline-block;">
+				<form class="form-horizontal" ><div class="backg-white span12 remove-span-margin" style="display: inline-block;">
 					<div class="span12 control-group">
 						<div class="span3"></div>
 						<div class="input-append span4 backg-white">
-							<input type="text" class="" style="" placeholder="云票编号">
-							<button class="btn btn-info" type="button" id="searchButton"><i class="icon-search"></i></button>
+							<input type="text" class="span11" style="" placeholder="云票编号">
+							<button class="btn btn-info" type="button" id="searchButton" style="height: 40px\9;"><i class="icon-search icon-white"></i></button>
 						</div>
 						<div class="span4">
-							<a id="searchMore" onclick="changeSearchStyle()" class="MyA" style="display: block;margin-top: 6px;" ><span>更多筛选条件 </span><i class="icon-chevron-up"></i></a>
+							<a id="searchMore" onclick="changeSearchStyle()" class="MyA" style="display: block;margin-top: 6px;margin-top: 10px\9;" ><span>更多筛选条件 </span><i class="icon-chevron-up"></i></a>
 						</div>
 					</div>
 					<!--更多查询条件区域-->
