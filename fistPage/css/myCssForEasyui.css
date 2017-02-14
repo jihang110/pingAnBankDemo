@@ -1,3 +1,6 @@
+body{
+	font-size: 14px !important;
+}
 a:hover{
 	text-decoration: none;
 }
@@ -8,11 +11,11 @@ a:hover{
 	margin-bottom: 42px;
 }
 .div-margin-top{
-	margin-top: 64px;
+	margin-top: 30px;
 }
 .div-height-250{
 	height: 250px;
-	margin-bottom: 42px;
+	margin-bottom: 30px;
 	background-image: url(../img/yunpiao.png);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -66,4 +69,7 @@ a:hover{
 	margin-top: 10px;
     display: block;
     margin-left: 35px;
+}
+.margin-right-30{
+	margin-right: 30px;
 }
