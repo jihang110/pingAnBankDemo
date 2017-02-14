@@ -1,5 +1,6 @@
 $(function(){
 	clickImg();
+//	minWin();
 });
 function clickImg(){
 	$("#baoliyun").click(function(){
@@ -25,7 +26,7 @@ function clickImg(){
 		$(this).parent().parent().next().find("h5").html("");
 	});
 	$("#jintiao").click(function(){
-		$("#backgroundC").css("background-color","#c0a00e");
+		$("#backgroundC").css("background-color","#ffc61f");
 		clearClass(this);
 		$(this).children("img").attr("src",'../img/jintiao1.png');
 		$(this).parent().parent().next().find("h4").html("内容暂缺");
