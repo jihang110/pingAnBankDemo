@@ -303,11 +303,26 @@ body{
 	width: 25%\9;
 }
 .width-ie-25 a{
+	float: right;
 	display: block\9;
 }
 .width-ie-25 span{
+	float: right;
 	display: block\9;
 }
 .width-ie-25 img{
+	float: right;
 	display: block\9;
+}
+.remove-span-margin{
+	margin-left: 0px !important;
+}
+.date-input{
+    width: 5px;
+    margin-left: 15px;
+    margin-left: 7px\9;
+    border: 0px solid #FFFFFF !important;
+}
+.remove-border-all{
+	border:0px !important;
 }
