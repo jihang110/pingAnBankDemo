@@ -299,3 +299,15 @@ body{
 	padding-right: 10px;
     margin-left: 0px;
 }
+.width-ie-25{
+	width: 25%\9;
+}
+.width-ie-25 a{
+	display: block\9;
+}
+.width-ie-25 span{
+	display: block\9;
+}
+.width-ie-25 img{
+	display: block\9;
+}
