@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/bootstrap.css" />
+		<link rel="stylesheet" href="../css/bootstrap-theme.css" />
+		<link rel="stylesheet" href="../css/myStyle.css" />
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../js/myjs.js"></script>
+		<style>
+
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid content-main">
+			<div class="row-fluid">
+				<div></div>
+				<div class="span12 backg-white notice-padding">
+					<div class="row-fluid">
+						<div class="span4">
+							<div>
+								<table>
+									<tr>
+										<td rowspan="2"><img src="../img/bigUserLogo.png" /></td>
+										<td class="padding-0-10"><strong>欢迎进入平安应收账款交易平台<strong></td>
+								</tr>
+								<tr>
+									<td class="padding-0-10">某某某经办员，您好</td>     
+								</tr>
+							</table>
+							<!--<div class="pull-left">
+								<img src="../img/bigUserLogo.png" />
+							</div>
+							<div class="pull-right ">
+								<span>欢迎进入平安**系统</span><br>
+								<span>某某某经办员，您好</span>
+							</div>-->
+						</div>
+					</div>
+					<div class="span4" style="padding:5px 0px;">
+						<span>您所属的网点&nbsp;:平安银行上海分行</span><br />
+						<span>当前交易日期&nbsp;:2017年1月13日</span><br />
+						<span>修&nbsp;&nbsp;改&nbsp;&nbsp;密&nbsp;&nbsp;码&nbsp;&nbsp;:<img src="../img/editPwd.png"></span>
+					</div>
+					<div class="span2" style="min-width: 137px;">
+						<table>
+							<tr class="lineheight73">
+								<td><img src="../img/notice.png" /></td>
+								<td class="padding-0-10">我的通知<strong>0</strong>个</td>
+									</tr>
+								</table>
+							</div>
+							<div class="span2" style="min-width: 137px;">
+								<table>
+									<tr class="lineheight73">
+										<td><img src="../img/download.png" /></td>
+										<td class="padding-0-10">下载中心</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="span12 margin-top-15" style="height: 332px;">
+						<div class="row-fluid">
+							<div class="span9 div-hover-3 backg-black" style="position:relative;">
+								<div class="span8 height332" style="position: relative;">
+									<img src="../img/background-black.png" style="width: 100%;height: 100%;"/>
+									<div class="bor-bottom-white" style=" line-height: 39px;position: absolute; top: 0px; left: 0px;width:100%;height: 39px;z-index: 9996;">
+										<img src="../img/company.png" style="padding: 0px 7px 9px 20px;"/>
+										<span class="color-white" style="font-size: 16px;"><strong>核心企业信息</strong></span>
+									</div>
+									<div style="height: 281px;width: 100%;position: absolute; top: 39px; left: 0px;">
+										<div style="padding: 60px 0px 15px 120px;">
+											<span class="color-white background-title"><strong>某某核心企业有限公司</strong></span>
+											<br>
+										</div>
+										<div class="span-height" style="padding-left: 110px;">
+											<span class="color-white">证件类型：统一社会信用证</span>
+											<br>
+											<span class="color-white">证件号码：123456-3</span>
+											<br>
+											<span class="color-white">国税登记证：132521453251353</span>
+											<br>
+											<span class="color-white">地税证件号：3412323323345</span>
+											<br>
+											<span class="color-white">注册币种：<span style=" font-family:Arial;">&yen;</span>1000,000,000.00</span>
+											<br>
+										</div>
+									</div>
+								</div>
+								<div class="span4 height332 backg-black">
+									<div style="padding: 70px 20px;">
+										<label class="color-white">联系人</label>
+										<input type="text" style="width: 85%;" class="border-orange color-orange backg-black">
+										<label class="color-white">联系电话</label>
+										<input type="text" style="width: 85%;" class="border-orange color-orange backg-black">
+										<label class="color-white">联系地址</label>
+										<input type="text" style="width: 85%;" class="border-orange color-orange backg-black">
+									</div>
+								</div>
+							</div>
+							<div class="span3 backg-white div-hover-3" style="height:335px;">
+								<div class="padding-10-15 border-bottom-grey">
+									<span><img src="../img/agencyTask.png"><strong style="padding-left: 10px;line-height: 24px;">代办任务</strong><input id="refresh" class="pull-right"  type="button"></input></span>
+									<br>
+								</div>
+								<div class="margin-left-15 margin-right-15 height79 bottomline">
+									<span>未提交任务：</span><span class="pull-right">共10条</span>
+								</div>
+								<div class="margin-left-15 margin-right-15 height79 bottomline">
+									<span>待审核任务：</span><span class="pull-right">共10条</span>
+								</div>
+								<div class="margin-left-15 margin-right-15 height79">
+									<span>被拒绝任务：</span><span class="pull-right">共10条</span>
+								</div>
+								<input type="button" id="more" class="pull-right backg-orange margin-right-15" value="更多 >" />
+							</div>
+						</div>
+					</div>
+					<div class="span12 margin-top-15 backg-white">
+						<div class="pull-left">
+							<a id="baoliyun" class="backg-white" style="inline">
+								<img src="../img/baoliyun.png" />
+							</a>
+						</div>
+						<div class="pull-left padding-left-15">
+							<a id="zulin" class="backg-white" style="inline">
+								<img src="../img/zulin.png" />								
+							</a>
+						</div>
+						<div class="pull-left padding-left-15">
+							<a id="ziguan" class="backg-white" style="inline">
+								<img src="../img/ziguan.png"/>
+							</a>
+						</div>
+						<div class="pull-left padding-left-15">
+							<a id="jintiao" class="backg-white" style="inline">
+								<img src="../img/jintiao.png"/>
+							</a>
+						</div>
+						<div class="pull-left padding-left-15">
+							<a id="jiaoyi" class="backg-white" style="inline">
+								<img src="../img/jiaoyi.png"/>
+							</a>
+						</div>
+					</div>
+					<div id="backgroundC" class="span12 backg-orange div-hover-3" style="position:relative;padding: 15px 0px 0px 15px;">
+						<img  src="../img/barkgroound-org.png" style="width: 100%;" />
+						<div style="position: absolute; top: 30%; left: 0;width: 100%;">
+							<h4 id="" class="text-center h-normal" style="letter-spacing:5px;">保理云系统</h4></div>
+						<div style="position: absolute; top: 45%; left: 0;width: 100%;">
+							<h5 class="text-center color-white  h-normal" style="letter-spacing:5px;">平安银行保理云服务平台:是由平安银行为商业保理公司提供的保理业务操作及信息管理服务</h5>
+						</div>
+						<input id="signButton" type="button" value="立即签约" class="backg-trans border-white color-white" style="padding:5px 30px;position: absolute; bottom: 10%; left: 44.5%;" />
+					</div>
+				</div>
+			</div>
+	</body>
+</html>
