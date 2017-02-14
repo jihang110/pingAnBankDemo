@@ -255,12 +255,6 @@ body{
 .div-hover-3:hover{
 	border-bottom: 3px solid #e95603;
 }
-.div-hover-grey-3{
-	border-bottom: 3px solid #959595;
-}
-.div-hover-grey-3:hover{
-	border-bottom: 3px solid #e95603;
-}
 .remove-border-bottom{
 	border-bottom-color: transparent;
 }
