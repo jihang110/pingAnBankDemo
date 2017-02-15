@@ -1,6 +1,6 @@
 $(function(){
 	clickImg();
-//	minWin();
+	setWidth();
 });
 function clickImg(){
 	$("#baoliyun").click(function(){
@@ -52,11 +52,11 @@ function clearClass(a){
 	$("#jintiao").children("img").attr("src","../img/jintiao.png");
 	$("#jiaoyi").children("img").attr("src","../img/jiaoyi.png");
 }
-function minWin(){
+function setWidth(){
 	$(window).resize(function(){
-		if(document.documentElement.clientWidth<700){
-		alert("禁止缩放");
-		window.resizeTo(700,300);
-		}
+		var mainFrameHeight = $("#mainFrame").width();
+		console.log(mainFrameHeight);
+		$("#footerContent").width(mainFrameHeight);
+		$("#footerRight").width(mainFrameHeight);
 	});
 }
