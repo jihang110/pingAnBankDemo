@@ -12,14 +12,14 @@ function clickImg(){
 		$(this).parent().parent().next().find("h5").html("平安银行保理云服务平台:是由平安银行为商业保理公司提供的保理业务操作及信息管理服务");
 	});
 	$("#zulin").click(function(){
-		$("#backgroundC").css("background-color","#0066ff");
+		$("#backgroundC").css("background-color","#27aae1");
 		clearClass(this);
 		$(this).children("img").attr("src",'../img/zulin1.png');
 		$(this).parent().parent().next().find("h4").html("内容暂缺");
 		$(this).parent().parent().next().find("h5").html("");
 	});
 	$("#ziguan").click(function(){
-		$("#backgroundC").css("background-color","#89d249");
+		$("#backgroundC").css("background-color","#8f82bc");
 		clearClass(this);
 		$(this).children("img").attr("src",'../img/ziguan1.png');
 		$(this).parent().parent().next().find("h4").html("内容暂缺");
