@@ -89,6 +89,9 @@ body{
 	height: 32px;
 	min-width: 400px;
 }
+.header-main ul{
+	margin-right: 8.5%;
+}
 .margin-top-10{
 	margin-top: 10px;
 }
@@ -304,15 +307,18 @@ body{
 }
 .width-ie-25 a{
 	float: right;
-	display: block\9;
+	display: block;
+	margin-top: 5px;
 }
 .width-ie-25 span{
 	float: right;
-	display: block\9;
+	display: block;
+	margin-top: 5px;
 }
 .width-ie-25 img{
 	float: right;
-	display: block\9;
+	display: block;
+	margin-right: 15px;
 }
 .remove-span-margin{
 	margin-left: 0px !important;
