@@ -3,9 +3,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Building a drag-drop shopping cart - jQuery EasyUI Demo</title>
-    <link rel="stylesheet" type="text/css" href="http://www.jeasyui.com/easyui/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="../css/easyui.css">
     <link rel="stylesheet" type="text/css" href="http://www.jeasyui.com/easyui/themes/icon.css">
-    <link rel="stylesheet" type="text/css" href="http://www.jeasyui.com/easyui/demo/demo.css">
     <link rel="stylesheet" href="../css/myCssForEasyui.css" />
     <script type="text/javascript" src="../js/jquery.min.js" ></script>
     <script type="text/javascript" src="http://www.jeasyui.com/easyui/jquery.easyui.min.js"></script>
@@ -21,10 +20,10 @@
     	<div class="easyui-panel remove-border-all" fit="true" border="true">
          <!-- 右面板-->
         <div style="background:#fff;">
-        	<div style="height: 40px;background-color: #E95603;">
-	    		<img src="../img/√.png"  class="img-title-left"/>
+        	<div style="height: 40px;background-color: #ea5504;">
+	    		<img src="../img/√.png"  class="img-title-left" style="width: 6.5%;margin-top: 13px;"/>
 	    		<span class="span-title" style="margin-left: 10px;width: 30%;">已选择列表</span>
-	    		<img src="../img/clear.png" class="img-title-right"/>
+	    		<img src="../img/clear.png" class="img-title-right" style="width: 5.5%;"/>
     		</div>
         <table id="cartcontent" fitColumns="true" style="width:100%;height:auto;">
             <thead>
@@ -42,7 +41,7 @@
     </div>
     <!-- 左面板-->
     <div class="products">
-    	<div style="height: 40px;background-color: #E95603;">
+    	<div style="height: 40px;background-color: #ea5504;">
     		<img src="../img/weijie.png" class="img-title-left"/>
     		<span class="span-title" style="margin-left: 10px;width: 14%;">未结清资产</span>
     		<!--<img src="../img/Ok-select.png" class="img-title-right"/>-->
@@ -54,7 +53,7 @@
     				<a href="#">票号</a>
     			</div>
     			<div>
-    				<li class="dropdown">
+    				<li class="dropdown" style="width: 100px;">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown <b class="caret"></b></a>
 					<ul class="dropdown-menu">
 						<li>

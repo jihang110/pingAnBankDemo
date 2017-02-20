@@ -104,7 +104,7 @@ body{
 	height: 22px;
 	border:0px;
 }
-#more{
+#more,.input-button{
 	border:0px;
 	color: #FFFFFF;
 	width: 90px;

@@ -3506,15 +3506,20 @@ input[type="button"].btn-block {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
-.btn-my:hover,
+
 .btn-my:focus,
 .btn-my:active,
 .btn-my.active,
 .btn-my.disabled,
 .btn-my[disabled] {
   color: #ffffff;
-  background-color: #E95603;
-  *background-color: #a9302a;
+  background-color: #ffffff;
+  *background-color: #ffffff;
+}
+.btn-my:hover{
+	color: #ffffff;
+	background-color: #ffffff;
+	background-position:0px 29px;
 }
 
 .btn-my:active,

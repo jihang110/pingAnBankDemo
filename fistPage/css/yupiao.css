@@ -45,7 +45,7 @@
 .div-title-yun{
     height: 33px;
     margin-bottom: 15px;
-    border-bottom: 1px solid #666666;
+    border-bottom: 2px solid #E5E5E5;
 }
 .div-title-yun span{
     margin: 8px 0px 0px 31px;
@@ -78,4 +78,7 @@
 	margin-top: 10px;
 	margin-left: 20px;
 	color: #333333;\9
+}
+.margin-bottom-15{
+	margin-bottom: 15px;
 }
