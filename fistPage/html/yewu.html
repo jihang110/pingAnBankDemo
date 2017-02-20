@@ -10,8 +10,14 @@
 		<link rel="stylesheet" href="../css/myStyle.css" />
 		<script type="text/javascript" src="../js/jquery.min.js"></script>
 		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../js/t.js" ></script>
 		<style>
-
+			.a-click{
+				display: block;margin-top: 6px;margin-top: 10px\9;
+			}
+			.ie-height{
+				height: 40px\9;
+			}
 		</style>
 	</head>
 
@@ -99,7 +105,7 @@
                 	时间：2017-02-08
                 	描述：面包屑
                 -->
-				<ul class="breadcrumb breadcrumb-border-margin" style="margin-bottom: 5px;">
+				<ul class="breadcrumb breadcrumb-border-margin" style="margin-bottom: 2px;">
 					<li>
 						<a href="#">云票管理</a> <span class="divider">/</span></li>
 					<li>
@@ -133,14 +139,14 @@
 						<div class="span3"></div>
 						<div class="input-append span4 backg-white">
 							<input type="text" class="span11" style="" placeholder="云票编号">
-							<button class="btn btn-info" type="button" id="searchButton" style="height: 40px\9;"><i class="icon-search icon-white"></i></button>
+							<button class="btn btn-info ie-height" type="button" id="searchButton" style=""><i class="icon-search icon-white"></i></button>
 						</div>
 						<div class="span4">
-							<a id="searchMore" onclick="changeSearchStyle()" class="MyA" style="display: block;margin-top: 6px;margin-top: 10px\9;" ><span>更多筛选条件 </span><i class="icon-chevron-up"></i></a>
+							<a id="searchMore"  class="MyA a-click"  ><span>更多筛选条件 </span><i class="icon-chevron-up"></i></a>
 						</div>
 					</div>
 					<!--更多查询条件区域-->
-					<div class="span12 remove-span-margin" id="searchNoreDiv">
+					<div class="span12 remove-span-margin" id="searchMoreDiv">
 						<div class="control-group controls-row">
 							<label class="control-label span2" for="inputEmail">云票编号</label>
 							<input class="span3" type="text" placeholder="云票编号">
@@ -170,28 +176,11 @@
                 	描述：card区域
                 -->
 				<div class="span12" style="margin-left: 0px;">
-					<iframe src="card.html" width="100%" height="750px" style="border: 0px;"></iframe>
+					<iframe src="card.html" width="100%" height="850px" style="border: 0px;" frameborder="0"</iframe>
 				</div>
 			</div>
 
 			<div class="panel-footer text-center" style="background-color: #FFFFFF;width: 98%;padding: 10px;">copyright © 2009-2014平安银行|平安金融</div>
-			<script>
-				$('#searchNoreDiv').hide();
-				function changeSearchStyle(){
-			      	var i = $('#searchMore').children('i');
-			          	if(i.hasClass('icon-chevron-up')){
-			          		i.removeClass('icon-chevron-up');
-			          		i.addClass('icon-chevron-down');
-			          		$('#searchMore').children('span').html('精选筛选条件 ');
-			          		$('#searchNoreDiv').show();
-			          	}else{
-			          		i.removeClass('icon-chevron-down');
-			          		i.addClass('icon-chevron-up');
-			          		$('#searchMore').children('span').html('更多筛选条件 ');
-			          		$('#searchNoreDiv').hide();
-			          	}
-			      }
-			</script>
 	</body>
 
 </html>
