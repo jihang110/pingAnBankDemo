@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../../css/bootstrap.css" />
+		<link rel="stylesheet" href="../../css/bootstrap-theme.css" />
+		<link rel="stylesheet" href="../../css/bootstrap-responsive.min.css" />
+		<link rel="stylesheet" href="../../css/myStyle.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/yupiao.css" />
+		<script type="text/javascript" src="../../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+		<style>
+
+		</style>
+	</head>
+
+	<body>
+		<!--
+        	作者：offline
+        	时间：2017-02-07
+        	描述：head
+        -->
+		<div class="header header-color" style="z-index: 9999;">
+			<img class="logo-img" src="../../img/logo.png" />
+			<div class="user width-ie-25">
+				<!--<i class="icon-user icon-white"></i>-->
+				<a>退出</a>
+				<span>说说经办员 &nbsp;&nbsp;|&nbsp;&nbsp;</span>
+				<img src="../../img/small-head-portrait.png" />
+			</div>
+			<div class="header-main text-left">
+				<ul class="nav nav-tabs font-black margin-bottom-0 remove-border-bottom li-margin-top-5 pull-right">
+					<div class="span1 div-height-32 div-hover text-center">
+						<li>
+							<a href="#">首页</a>
+						</li>
+					</div>
+					<div class="span1 div-height-32 div-hover weight-auto dropdown-title">
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">用户管理<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">添加用户</a>
+								</li>
+							</ul>
+						</li>
+					</div>
+					<div class="span2 div-height-32 div-hover weight-auto dropdown-title">
+						<li class="dropdown">
+							<a href="#">基本信息维护<b class="caret"></b></a>
+						</li>
+					</div>
+					<div class="span1 div-height-32 div-hover weight-auto dropdown-title">
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">我的工作<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">代办任务</a>
+								</li>
+							</ul>
+						</li>
+					</div>
+					<div class="span2 div-height-32 div-hover weight-auto dropdown-title">
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">查询管理<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">在途任务查询</a>
+								</li>
+								<li>
+									<a href="#">我发起的任务</a>
+								</li>
+								<li>
+									<a href="#">我参与的任务</a>
+								</li>
+								<li>
+									<a href="#">管理员操作日志</a>
+								</li>
+								<!--<li class="divider"></li>
+								<li>
+									<a href="#">Separated link</a>
+								</li>-->
+							</ul>
+						</li>
+					</div>
+				</ul>
+			</div>
+		</div>
+		<!--
+        	作者：offline
+        	时间：2017-02-07
+        	描述：内容区域
+        -->
+		<div class="container-fluid content-main">
+			<div class="row-fluid">
+				<!--
+                	作者：offline
+                	时间：2017-02-08
+                	描述：面包屑
+                -->
+				<ul class="breadcrumb breadcrumb-border-margin" style="margin-bottom: 5px;">
+					<li>
+						<a href="#">云票管理</a> <span class="divider">/</span></li>
+					<li>
+						<a href="#">云票合并</a> <span class="divider">/</span></li>
+					<li class="active">选择</li>
+				</ul>
+				<!--
+                	作者：offline
+                	时间：2017-02-08
+                	描述：进度条
+                -->
+				<div class="backg-white" style="padding-left: 84px;padding-right: 84px;">
+					<div style="top: 57px;position: relative;left: 30%;"><img src="../../img/d.png" /><span style=" color: #FFFFFF;right: 46px;position: relative;bottom: 2px;">申请</span></div>
+					<div style="top: 29px;position: relative;left: 63%;"><img src="../../img/d.png" /><span style=" color: #FFFFFF;right: 46px;position: relative;bottom: 2px;">复核</span></div>
+					<div style="top: 2px;position: relative;left: 96%;"><img src="../../img/d.png" /><span style=" color: #FFFFFF;right: 46px;position: relative;bottom: 2px;">提交</span></div>
+					<div class="progress margin-top-65">
+						<div class="bar bar-info " style="width: 33%"></div>
+						<div class="bar bar-warning" style="width: 33%"></div>
+						<div class="bar bar-danger" style="width: 34%"></div>
+					</div>
+					<div style="height: 40px;width: 100%;" class="backg-white"></div>
+				</div>
+				<!--
+                	作者：offline
+                	时间：2017-02-08
+                	描述：查询条件区域
+                -->
+
+				<form class="form-horizontal">
+					<div class="backg-white span12 remove-span-margin" style="display: inline-block;">
+						<div class="span12 remove-span-margin" id="searchNoreDiv">
+							<div class="control-group controls-row">
+								<label class="control-label span2" for="inputEmail">云票编号</label>
+								<input class="span3" type="text" placeholder="云票编号">
+								<label class="control-label span2" for="inputEmail">付款人</label>
+								<input class="span3" type="text" placeholder="付款人">
+							</div>
+							<div class="control-group controls-row">
+								<label class="control-label span2" for="inputEmail">云票编号</label>
+								<input class="span3" type="text" placeholder="云票编号">
+								<label class="control-label span2" for="inputEmail">付款人</label>
+								<input class="span3" type="text" placeholder="付款人">
+							</div>
+							<div class="control-group controls-row">
+								<label class="control-label span2" for="inputEmail">云票编号</label>
+								<textarea name="" rows="4" cols="" class="span8"></textarea>
+							</div>
+							<div class="control-group offset5">
+								<button class="btn btn-warning">&nbsp;&nbsp;&nbsp;&nbsp;开金条&nbsp;&nbsp;&nbsp;&nbsp;</button>
+							</div>
+						</div>
+					</div>
+				</form>
+				<!--
+                	作者：offline
+                	时间：2017-02-13
+                	描述：票区域
+                -->
+				<div class="span12" style="margin-left: 0px;height: 823px;">
+					<img src="../../img/yunpiao/yunpiaoBgNew.png" />
+					<div class="img-div">
+						<div class="span12 margin-bottom-40">
+							<h1 class="text-white text-center">XXXX核心企业平安金条</h1>
+						</div>
+						<div class="span12">
+								<label class="span2 text-right">金条号：</label>
+								<p class="span8 span-bottom-border">50646465464646
+									<p>
+						</div>
+						<div class="span12">
+								<label class="span2 text-right">金条号：</label>
+								<p class="span8 span-bottom-border">50646465464646
+									<p>
+						</div>
+						<div class="span12">
+								<label class="span2 text-right">金条号：</label>
+								<p class="span8 span-bottom-border">50646465464646
+									<p>
+						</div>
+						<div class="span12">
+							<label class="span2 text-right">金条号：</label>
+							<p class="span2 text-glod">（人民币大写）</p>
+							<p class="span6 span-bottom-border">50646465464646
+								<p>
+						</div>
+						<div class="span12">
+							<p class="offset2 span2 text-glod">（人民币小写）</p>
+							<p class="span6 span-bottom-border">50646465464646
+								<p>
+						</div>
+						<div class="span12">
+							<div class="span6">
+								<label class="span4 text-right">金条号：&nbsp;</label>
+								<p class="span6 span-bottom-border">50646465464646
+									<p>
+							</div>
+							<div class="span6">
+								<label class="span2 text-right">金条号：</label>
+								<p class="span6 span-bottom-border">50646465464646
+									<p>
+							</div>
+						</div>
+						<div class="span12">
+								<label class="span2 text-right">金条号：</label>
+								<p class="span8 span-bottom-border">50646465464646
+									<p>
+							</div>
+						
+						<div class="span12">
+							<form class="form-horizontal">
+								<div class="control-group controls-row">
+									<label class="control-label span2" for="inputEmail">云票编号</label>
+									<input class="span3" type="text" placeholder="云票编号">
+									<label class="control-label span2" for="inputEmail">付款人</label>
+									<input class="span3" type="text" placeholder="付款人">
+								</div>
+								<div class="control-group controls-row">
+									<label class="control-label span2" for="inputEmail">云票编号</label>
+									<input class="span3" type="text" placeholder="云票编号">
+									<label class="control-label span2" for="inputEmail">付款人</label>
+									<input class="span3" type="text" placeholder="付款人">
+								</div>
+								<div class="control-group controls-row">
+									<label class="control-label span2" for="inputEmail">云票编号</label>
+									<input class="span8" type="text" placeholder="云票编号">
+									
+								</div>
+								<div class="control-group controls-row">
+									<label class="control-label span2" for="inputEmail">云票编号</label>
+									<textarea rows="4" class="span8 "></textarea>
+								</div>
+								<div class="span12">
+									<label class="offset4 span2 text-right">电子签章：</label>
+									<span class="text-error">sdgfsddsg34fg45tgt45g45g45g45g54g54g4g43f34<span>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="span12 backg-white remove-span-margin margin-top-15">
+					<div class="span12 div-title-yun">
+						<span>附件信息</span>
+					</div>
+					<div class="span12 margin-bottom-30">
+						<div class="span3 add-all-border ">
+			       		<img src="../../img/yunpiao/w.png" />
+			       		<div class="hover-icon">
+			       			<div style="float: left;">
+			       				<span>sdfsdf.xls</span>
+			       				<span>100k</span>
+			       			</div>
+			       			<a><img src="../../img/yunpiao/Eye.png" /></a>
+			       			<a><img src="../../img/yunpiao/Close.png" /></a>
+			       		</div>
+			       	</div>
+			       	<div class="span3 add-all-border">
+			       		<img src="../../img/yunpiao/x.png" />
+			       		<div class="hover-icon">
+			       			<div style="float: left;">
+			       				<span>sdfsdf.xls</span>
+			       				<span>100k</span>
+			       			</div>
+			       			<a><img src="../../img/yunpiao/Eye.png" /></a>
+			       			<a><img src="../../img/yunpiao/Close.png" /></a>
+			       		</div>
+			       	</div>
+			       	<div class="plus-stl add-all-border">
+			       		<img src="../../img/yunpiao/plus.png" />
+			       	</div>
+					</div>
+				</div>
+				<button class="btn btn-warning offset5 margin-top-10">&nbsp;&nbsp;&nbsp;提交&nbsp;&nbsp;&nbsp;</button>
+			</div>
+		</div>
+
+			<div class="panel-footer text-center" style="background-color: #FFFFFF;width: 98%;padding: 10px;position:fixed;bottom:0px;color: #333333\9;">copyright © 2009-2014平安银行|平安金融</div>
+			<script>
+				$('.hover-icon').hover(function(){
+					$('a>img',this).show();
+				},function(){
+					$('a>img',this).hide();
+				});
+				function changeSearchStyle() {
+					var i = $('#searchMore').children('i');
+					if(i.hasClass('icon-chevron-up')) {
+						i.removeClass('icon-chevron-up');
+						i.addClass('icon-chevron-down');
+						$('#searchMore').children('span').html('精选筛选条件 ');
+						$('#searchNoreDiv').show();
+					} else {
+						i.removeClass('icon-chevron-down');
+						i.addClass('icon-chevron-up');
+						$('#searchMore').children('span').html('更多筛选条件 ');
+						$('#searchNoreDiv').hide();
+					}
+				}
+			</script>
+	</body>
+
+</html>

@@ -1,0 +1,81 @@
+.img-div{
+    position: relative;
+    bottom: 820px;
+    width: 83%;
+    height: 710px;
+    left: 100px;
+}
+.img-div input,.backg-trans{
+	border: none;
+	border-bottom: 1px solid black;
+	background-color: transparent;
+	background-color: #FFFFFF\9;
+}
+.text-glod{
+	color: #D9D919;
+}
+.text-white{
+	color: #FFFFFF;
+}
+.backg-glod{
+	background-color: #c6bb96;
+}
+.margin-bottom-20{
+	margin-bottom: 20px;
+}
+.span-bottom-border{
+	display: block;
+	border-bottom: 1px solid black;
+}
+.add-all-border{
+	border: 1px solid #a0a0a0;
+}
+.plus-stl{
+    height: 80px;
+    width: 82px;
+    float: left;
+    margin-left: 32px;
+}
+.plus-stl img{
+	margin: 32px;
+}
+.margin-bottom-40{
+	margin-bottom: 40px;
+}
+.div-title-yun{
+    height: 33px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #666666;
+}
+.div-title-yun span{
+    margin: 8px 0px 0px 31px;
+    display: block;
+    color: #333333\9;
+}
+.margin-bottom-30{
+	margin-bottom: 30px;
+}
+.hover-icon{
+	float: right;
+	width: 68.8%;
+	height: 80px;
+}
+.hover-icon:hover{
+	background-color: #666666;
+}
+.hover-icon a{
+	cursor: pointer;
+}
+.hover-icon img{
+	float: right;
+    margin-top: 32px;
+    margin-right: 10px;
+    display: none;
+    z-index: 999;
+}
+.hover-icon span{
+	display: block;
+	margin-top: 10px;
+	margin-left: 20px;
+	color: #333333;\9
+}
