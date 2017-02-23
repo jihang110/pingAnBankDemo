@@ -16,7 +16,7 @@ a:hover{
 .div-height-250{
 	height: 200px;
 	margin-bottom: 15px;
-	background-image: url(../img/yunpiao.png);
+	background-image: url(../img/divbg.png);
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -72,4 +72,7 @@ a:hover{
 }
 .margin-right-30{
 	margin-right: 30px;
+}
+.li-30 li{
+	width: 30%;
 }

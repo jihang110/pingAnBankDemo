@@ -1,0 +1,9 @@
+/* Banner */
+#banner {
+  background-image: url("../../../../img/yunpiao/yunpiaoBgNew.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -ms-behavior: url("css/ie/backgroundsize.min.htc"); }
+  #banner .inner {
+ }
+
